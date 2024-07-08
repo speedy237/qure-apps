@@ -1,1 +1,1 @@
-Web : gunicorn geeks.wsgi
+Web : gunicorn qureapi.wsgi
