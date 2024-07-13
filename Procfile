@@ -1,1 +1,1 @@
-Web : gunicorn qureapi.wsgi
+web gunicorn qureapi.wsgi:application --log-file -
