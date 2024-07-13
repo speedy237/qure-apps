@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from pathlib import Path
 import os
 import django_heroku
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +28,7 @@ SECRET_KEY = 'django-insecure-i)h_z0pb+!!@bz=&zt-d7dq+q5mcxe*azx-3tj%a$5ma&sn2kc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://qure-apps-af9385628d49.herokuapp.com/', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -81,10 +82,10 @@ WSGI_APPLICATION = 'qureapi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'quredb',
-        'USER': 'qureadmin',
-        'PASSWORD': '@Qwerty123!',
-        'HOST': 'localhost',
+        'NAME': 'd17ktck2cangir',
+        'USER': 'u8ljq340akbi48',
+        'PASSWORD': 'p5ec92df2959b97323f4ee0207d4692798949b1905d89c737a0fb313fa94f0586',
+        'HOST': 'cav8p52l9arddb.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
