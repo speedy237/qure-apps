@@ -1,2 +1,1 @@
-version : python manage.py migrate
-Web : gunicorn geeks.wsgi
+Web : gunicorn qureapi.wsgi
